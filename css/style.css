@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+    background-size: cover;
+    height: 160vh;
+    width: auto;
+}
+
+.top {
+    /* background-color: brown; */
+    height: 20vh;
+    width: 90%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+marquee {
+    font-size: 80px;
+    width: 95%;
+
+    /* animation: 2s moveing linear infinite; */
+}
+
+/* @keyframes moveing {
+to{
+    transform: translateX(10px);
+}
+} */
+.main {
+    /* background-color: chartreuse; */
+    height: 100vh;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.col-md-4 {
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.flip {
+    transform: rotateY(180deg);
+    transform-origin: left;
+
+    opacity: 0;
+    animation: 0.7s flip-in linear forwards;
+    animation-delay: 0.7s;
+}
+
+@keyframes flip-in {
+    to {
+        transform: rotateY(0);
+        opacity: 1;
+    }
+}
+
+.card-text1 {
+    display: none;
+}
+
+.rrr{
+    color: chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fff{
+    color: blue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ddd{
+    color: red;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ttt{
+    font-size: 50px;
+    color: blanchedalmond;
+}
